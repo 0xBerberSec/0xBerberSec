@@ -1,6 +1,6 @@
 # 0xBerberSec
 
-Smart Contract Security Researcher focused on DeFi, cross-chain messaging, lending protocols, invariant analysis, and proof-of-concept development.
+Smart Contract Security Researcher focused on DeFi, cross-chain messaging, invariant analysis, and proof-of-concept development.
 
 I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on state-machine correctness, lifecycle invariants, configuration safety, liquidation flows, and runtime execution guarantees.
 
@@ -8,8 +8,7 @@ I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on sta
 
 - 1 validated Code4rena Low finding
 - Validated finding: LayerZero Stellar Endpoint, runtime DVN budget mismatch
-- QA finding: Jupiter Lend branch lifecycle invariant weakness
-- Public research: Moonwell Comptroller behavioral analysis
+- QA research: Jupiter Lend branch lifecycle invariant weakness
 - PoC-driven methodology using Foundry, Rust/Soroban tests, fork testing, and manual code review
 
 ## Validated Findings
@@ -22,16 +21,12 @@ I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on sta
 
 | Protocol | Type | Status | Link |
 | --- | --- | --- | --- |
-| Jupiter Lend | QA / Low | Submitted on Code4rena | [S-757](https://code4rena.com/audits/2026-02-jupiter-lend/submissions/S-757) |
-| Moonwell | Research / PoC | Public research | [Report](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/moonwell-comptroller-analysis) |
-| LayerZero Receive Library Rotation | Research note | Pending publication | [Portfolio index](https://github.com/0xBerberSec/smart-contract-security-audits) |
-| K2 Oracle Cache | Research note | Pending publication | [Portfolio index](https://github.com/0xBerberSec/smart-contract-security-audits) |
+| Jupiter Lend | Code4rena QA Report | Public QA Research | [S-757](https://code4rena.com/audits/2026-02-jupiter-lend/submissions/S-757) |
 
 ## Research Portfolio
 
 - [LayerZero Stellar Endpoint - Runtime DVN budget mismatch](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/layerzero-stellar-endpoint)
-- [Jupiter Lend - Closed branch lifecycle invariant weakness](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/jupiter-lend-qa)
-- [Moonwell Comptroller - Market entry persistence analysis](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/moonwell-comptroller-analysis)
+- [Jupiter Lend - QA Research](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/jupiter-lend-qa)
 
 ## Expertise
 
@@ -59,4 +54,4 @@ I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on sta
 
 ## Current Focus
 
-Building a public audit portfolio with validated findings, QA reports, reproducible PoCs, and protocol research. All public claims in this profile are kept factual and verifiable.
+Building a public audit portfolio with validated findings, QA reports, and reproducible PoCs. All public claims in this profile are kept factual and verifiable.
