@@ -9,6 +9,7 @@ I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on sta
 - 1 validated Code4rena Low finding
 - Validated finding: LayerZero Stellar Endpoint, runtime DVN budget mismatch
 - QA research: Jupiter Lend branch lifecycle invariant weakness
+- Independent security research: GMX Synthetics disabled integration relay bypass
 - PoC-driven methodology using Foundry, Rust/Soroban tests, fork testing, and manual code review
 
 ## Validated Findings
@@ -22,11 +23,13 @@ I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on sta
 | Protocol | Type | Status | Link |
 | --- | --- | --- | --- |
 | Jupiter Lend | Code4rena QA Report | Public QA Research | [S-757](https://code4rena.com/audits/2026-02-jupiter-lend/submissions/S-757) |
+| GMX Synthetics | Independent Security Research | Public independent research | [Report](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/gmx-disabled-integration-relay-bypass) |
 
 ## Research Portfolio
 
 - [LayerZero Stellar Endpoint - Runtime DVN budget mismatch](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/layerzero-stellar-endpoint)
 - [Jupiter Lend - QA Research](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/jupiter-lend-qa)
+- [GMX Synthetics - Disabled integration relay bypass](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/gmx-disabled-integration-relay-bypass)
 
 ## Expertise
 
@@ -54,4 +57,4 @@ I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on sta
 
 ## Current Focus
 
-Building a public audit portfolio with validated findings, QA reports, and reproducible PoCs. All public claims in this profile are kept factual and verifiable.
+Building a public audit portfolio with validated findings, QA reports, independent security research, and reproducible PoCs. All public claims in this profile are kept factual and verifiable.
