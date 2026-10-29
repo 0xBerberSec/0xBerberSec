@@ -1,60 +1,31 @@
 # 0xBerberSec
 
-Smart Contract Security Researcher focused on DeFi, cross-chain messaging, invariant analysis, and proof-of-concept development.
+**Independent Smart Contract Security Researcher**
 
-I review Solidity/EVM, Rust/Soroban, and DeFi protocol logic with a focus on state-machine correctness, lifecycle invariants, configuration safety, liquidation flows, and runtime execution guarantees.
+**Injective Peggy Bridge — 1 Medium finding validated by Code4rena · 21st place in the competition.**
+[Official profile](https://code4rena.com/@0xBerberSec) · [Competition results](https://code4rena.com/audits/2026-02-injective-peggy-bridge)
 
-## Highlights
+I focus on DeFi accounting, authorization boundaries and state transitions: how assets move, which assumptions protect them, and where those assumptions can fail.
 
-- 1 validated Code4rena Low finding
-- Validated finding: LayerZero Stellar Endpoint, runtime DVN budget mismatch
-- QA research: Jupiter Lend branch lifecycle invariant weakness
-- Independent security research: GMX Synthetics disabled integration relay bypass
-- PoC-driven methodology using Foundry, Rust/Soroban tests, fork testing, and manual code review
+### How I audit
 
-## Validated Findings
+**Value Flow → Security Invariants → Targeted Tests → Counter-Tests → Economic Impact Qualification**
 
-| Protocol | Contest | Severity | Finding | Link |
-| --- | --- | --- | --- | --- |
-| LayerZero | Stellar Endpoint | Low, validated | ULN302 accepts DVN configurations valid during validation but non-executable at runtime under Soroban budget limits | [S-1284](https://code4rena.com/audits/2026-04-layerzero-stellar-endpoint/submissions/S-1284) |
+I map contracts, dependencies and trusted actors before tracing the paths that move value. I turn protocol assumptions into measurable invariants, build focused experiments and compare suspicious behavior with control cases. An apparent gain needs an explanation of who funds it, who can obtain it and under which conditions.
 
-## Security Research
+Audit-OS is my research workspace for protocol maps, hypotheses, tests, traces and conclusions. I use scripts and Codex to assist analysis and test construction; generated output requires verification against source code and execution evidence.
 
-| Protocol | Type | Status | Link |
-| --- | --- | --- | --- |
-| Jupiter Lend | Code4rena QA Report | Public QA Research | [S-757](https://code4rena.com/audits/2026-02-jupiter-lend/submissions/S-757) |
-| GMX Synthetics | Independent Security Research | Public independent research | [Report](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/gmx-disabled-integration-relay-bypass) |
+### Technical focus
 
-## Research Portfolio
+- Vault, LP and reward accounting; shares, balance deltas and epoch snapshots.
+- Authorization, signed policies and contract state transitions.
+- Foundry and Hardhat testing, local fork simulations and trace analysis.
+- Targeted research with Rust/Soroban, Solana/Anchor and Cairo tooling.
 
-- [LayerZero Stellar Endpoint - Runtime DVN budget mismatch](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/layerzero-stellar-endpoint)
-- [Jupiter Lend - QA Research](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/jupiter-lend-qa)
-- [GMX Synthetics - Disabled integration relay bypass](https://github.com/0xBerberSec/smart-contract-security-audits/tree/main/audits/gmx-disabled-integration-relay-bypass)
+### Work and evidence
 
-## Expertise
+Start with the [audit portfolio](https://github.com/0xBerberSec/smart-contract-security-audits): the verified competition record, audit methodology, testing practices and disclosure-safe investigation overviews. Independent research is distinguished from platform validation. Technical material is shared only when disclosure rights are established.
 
-- DeFi lending and liquidation flows
-- Cross-chain messaging and endpoint configuration
-- Protocol invariants and state-machine safety
-- Runtime validation mismatch analysis
-- Proof-of-concept development
-- Fork-based and unit-test validation
-- Manual line-by-line review
+**Available for paid, scoped private audit collaborations and technical evaluations.**
 
-## Technologies
-
-- Solidity / EVM
-- Rust / Soroban
-- Foundry
-- Hardhat
-- Code4rena competitive audits
-- Fork testing and transaction trace analysis
-
-## Contact
-
-- GitHub: [0xBerberSec](https://github.com/0xBerberSec)
-- Code4rena: [0xBerberSec](https://code4rena.com/@0xBerberSec)
-
-## Current Focus
-
-Building a public audit portfolio with validated findings, QA reports, independent security research, and reproducible PoCs. All public claims in this profile are kept factual and verifiable.
+Contact: [GitHub](https://github.com/0xBerberSec) · [Code4rena](https://code4rena.com/@0xBerberSec)
